@@ -44,9 +44,8 @@ tags:
 - Company
 - Mortgage
 - Fintech
-- Financial-Services
+- Financial Services
 - United Kingdom
-- Brokers
 - Acquired
 tags_raw:
 - Company
@@ -54,8 +53,8 @@ tags_raw:
 - Fintech
 - Financial Services
 - United Kingdom
-- Broker
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -72,3 +71,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Brokers
